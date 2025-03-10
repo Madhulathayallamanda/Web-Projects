@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-group-item span {
+    flex-grow: 1;
+    margin-left: 10px;
+}
